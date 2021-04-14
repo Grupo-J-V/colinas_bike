@@ -21,9 +21,21 @@ body {
 .caption {
     position: absolute;
     text-align: center;
-    top: 45%;
     width: 100%;
     color: #fff;
+    top: 45%;
+}
+
+@media screen and (max-width:576px) {
+    .caption {
+        top: 20% !important;
+    }
+}
+
+@media (min-width:576px) and (max-width:1200px) {
+    .caption {
+        top: 30% !important;
+    }
 }
 
 #imagen {
