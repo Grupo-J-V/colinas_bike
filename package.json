@@ -1,0 +1,26 @@
+{
+  "name": "colinas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffpr11/colinas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffpr11/colinas/issues"
+  },
+  "homepage": "https://github.com/jeffpr11/colinas#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "14.4.0",
+      "npm": "6.14.5"
+  }
+}
