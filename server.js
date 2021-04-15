@@ -13,6 +13,10 @@ app.get('/jeffpr11',function(req,res){
     res.sendFile('jeffpr11.html', { root: 'html'});
 });
 
+app.get('/vicfar97',function(req,res){
+    res.sendFile('vicfar97.html', { root: 'html'});
+});
+
 app.get('/off',function(req,res){
     res.sendFile('off.html', { root: 'html'});
 });
