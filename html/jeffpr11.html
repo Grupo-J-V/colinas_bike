@@ -20,7 +20,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Colinas Bike</a>
+                <a class="navbar-brand" href="/">Colinas Bike</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBar"
                     aria-controls="navBar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -45,15 +45,17 @@
                             <a class="nav-link" href="#">Servicios</a>
                         </li> -->
                         <li class="nav-item theme-switch-wrapper mx-5">
-                            <!-- <em>Light</em>&nbsp; -->
-                            <div class="col"><em><i class="fas fa-sun"></i></em></div>
-                            <div class="col">
-                                <div class="form-check form-switch">
-                                    <input class="form-check-input" type="checkbox" id="mode">
+                            <div class="row justify-content-between">
+                                <!-- <em>Light</em>&nbsp; -->
+                                <div class="col-3"><em><i class="fas fa-sun"></i></em></div>
+                                <div class="col-6 text-center">
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" id="mode">
+                                    </div>
                                 </div>
+                                <div class="col-3"><em><i class="fas fa-moon"></i></em> </div>
+                                <!-- &nbsp;<em>Dark</em> -->
                             </div>
-                            <div class="col"><em><i class="fas fa-moon"></i></em> </div>
-                            <!-- &nbsp;<em>Dark</em> -->
                         </li>
                     </ul>
                 </div>
@@ -65,7 +67,7 @@
     <section id="info">
         <div class="container mt-4">
             <div class="row align-items-center justify-content-center">
-                <div class="col-sm-6 img-fluid" id="imagen">
+                <div class="col-sm-6 img-fluid" id="imagenJ">
                 </div>
                 <div class="col-sm-6">
                     <div class="container">
@@ -205,11 +207,11 @@
                         </div>
                     </div>
                     <div class="resume-item">
-                        <div class="row justify-content-center">
-                            <div class="col">
+                        <div class="row justify-content-between">
+                            <div class="col-8 col-sm-9">
                                 <h4>Ingeniería en Computación</h4>
                             </div>
-                            <div class="col-2">
+                            <div class="col col-sm-3">
                                 <img
                                     src="https://raw.githubusercontent.com/Grupo-J-V/resources/main/Jeffrey/Logos/Espol.png">
                             </div>
@@ -233,32 +235,20 @@
                 <div class="col-lg-6">
                     <h3 class="resume-title">Experiencia Profesional</h3>
                     <div class="resume-item">
-                        <div class="row justify-content-center">
-                            <div class="col">
-                                <h4>Programador de Proyecto</h4>
-                            </div>
-                            <div class="col-2">
-                                <img
-                                    src="https://raw.githubusercontent.com/Grupo-J-V/resources/main/Jeffrey/Logos/Siigo%2BContífico.jpg">
-                            </div>
-                        </div>
+                        <h4>Programador de Proyecto</h4>
                         <h5>2020 - actualidad</h5>
                         <p><em>Siigo + Contífico</em></p>
                         <ul>
                             <li>Backend - Django, Flask, PostgreSQL</li>
                             <li>Frontent - Angular, React, Vue</li>
                         </ul>
+                        <div class="logo-item">
+                            <img
+                                src="https://raw.githubusercontent.com/Grupo-J-V/resources/main/Jeffrey/Logos/Siigo%2BContífico.jpg">
+                        </div>
                     </div>
                     <div class="resume-item">
-                        <div class="row justify-content-center">
-                            <div class="col">
-                                <h4>Desarrollador Móvil</h4>
-                            </div>
-                            <div class="col-2">
-                                <img
-                                    src="https://raw.githubusercontent.com/Grupo-J-V/resources/main/Jeffrey/Logos/Contífico.png">
-                            </div>
-                        </div>
+                        <h4>Desarrollador Móvil</h4>
                         <h5>2019 - 2020</h5>
                         <p><em>Contífico</em></p>
                         <ul>
@@ -266,6 +256,10 @@
                             <li>Realm</li>
                             <li>UX</li>
                         </ul>
+                        <div class="logo-item">
+                            <img
+                            src="https://raw.githubusercontent.com/Grupo-J-V/resources/main/Jeffrey/Logos/Contífico.png">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -453,7 +447,7 @@
                                     class="fa fa-whatsapp"></i></a></li>
                     </ul>
                     <div class="row justify-content-center">
-                        <p class="h6">© 2020 | All right Reversed.</p>
+                        <p class="h6">© 2020 | All right Reserved.</p>
                     </div>
                     <div class="row justify-content-center">
                         <p>Desarrollado por <a href="off" target="_blank"><b class="h6">Grupo J&V</b></a></p>
