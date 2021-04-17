@@ -17,6 +17,10 @@ app.get('/vicfar97',function(req,res){
     res.sendFile('vicfar97.html', { root: 'html'});
 });
 
+app.get('/durey25',function(req,res){
+    res.sendFile('durey25.html', { root: 'html'});
+});
+
 app.get('/off',function(req,res){
     res.sendFile('off.html', { root: 'html'});
 });
